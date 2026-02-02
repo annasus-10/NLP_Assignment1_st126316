@@ -111,3 +111,20 @@ This approach captures topical similarity rather than exact keyword matching, wh
 From the project root directory:
 ```bash
 python app/app.py
+```
+Then open:
+
+```bash
+http://127.0.0.1:5000
+```
+
+## Discussion
+
+- Skip-gram with negative sampling converges faster and is more computationally efficient than full softmax.
+- GloVe training is efficient due to sparse co-occurrence statistics.
+- Evaluation scores are limited by corpus size and domain mismatch with benchmark datasets.
+- The web application demonstrates practical semantic retrieval despite these limitations.
+
+## Conclusion
+
+This project demonstrates correct implementation, training, and evaluation of multiple word embedding models from scratch. Despite modest evaluation scores due to dataset constraints, the results are consistent and the models behave as expected. The web application further illustrates how word embeddings can be applied to semantic similarity tasks.
