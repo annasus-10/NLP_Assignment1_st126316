@@ -8,7 +8,6 @@ from flask import Flask, request, render_template_string
 # Optional but recommended: use your myTokenize syllable tokenizer
 from myTokenize import SyllableTokenizer
 
-
 # -------------------------
 # Config
 # -------------------------
