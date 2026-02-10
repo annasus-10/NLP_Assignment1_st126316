@@ -1,0 +1,27 @@
+# virtual environments
+mt39/
+venv/
+.env/
+.venv/
+Assignment3-Machine Translation/mt39/
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# jupyter
+.ipynb_checkpoints/
+
+# mac
+.DS_Store
+
+# large binaries
+*.dylib
+*.so
+*.pyd
+
+# model artifacts (optional)
+*.pt
+*.pth
+*.ckpt
